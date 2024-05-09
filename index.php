@@ -33,7 +33,7 @@
 
         } elseif($_GET['page'] == 'user-add') {
 
-          include 'user_add.php';
+          include 'user_add.php'; 
 
         } elseif($_GET['page'] == 'user-list') {
 
