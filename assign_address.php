@@ -1,25 +1,42 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="?page=user">User List</a>
-                  </li>
+<?php 
+$con  = mysqli_connect("localhost","dev","devs","fastfoodchains");
 
-                  <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="?page=location">Location</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="?page=assign-address">Assign Address</a>
-                    </li>
-                  
-                  
-                </ul>
+$user_location_sql = "SELECT * FROM users_locations";
+$user_location_query = mysqli_query($con,$user_location_sql);
+
+?>
+
+<a href="?page=add-assign-address" class="btn btn-sm btn-success" >Set User Address</a>
+          
+          <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Username</th>
+                  <th scope="col">Location</th>
+                  <th scope="col">Action</th>
+                </tr>
+              </thead>
+              <tbody>
+              <?php while ($row = mysqli_fetch_array($user_location_query, MYSQLI_ASSOC)) : 
+
+        
+          
+          $user_sql = "SELECT * FROM users WHERE id = ".$row['user_id']."";
+          $user_query =  mysqli_query($con,$user_sql);
+          $user_row   = mysqli_fetch_assoc($user_query); 
+          
+          $location_sql = "SELECT * FROM locations WHERE id = ".$row['location_id']."";
+          $location_query =  mysqli_query($con,$location_sql);
+          $location_row   = mysqli_fetch_assoc($location_query);
+          ?>
+                  <td><?php echo $user_row['username'];?></td>
+                  <td><?php echo $location_row['country'];?></td>
+                  <td>
+                    <button class="btn btn-sm btn-info">Edit</button>
+                    <button class="btn btn-sm btn-danger">Delete</button>
+                  </td>
+                </tr>
+            <?php endwhile; ?>
                
-              </div>
-            </div>
-          </nav>
+              </tbody>
+            </table>

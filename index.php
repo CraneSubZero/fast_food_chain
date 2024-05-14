@@ -20,8 +20,7 @@
             include 'user_list.php';
 
          } elseif($_GET['page'] == 'location') {
-
-              include 'location.php';
+            include 'location.php';
 
          } elseif($_GET['page'] == 'assign-address') {
 
@@ -31,15 +30,11 @@
 
          include 'add_assign_address.php';
 
-        } elseif($_GET['page'] == 'user-add') {
+      } elseif($_GET['page'] == 'user_add') {
 
-          include 'user_add.php'; 
+        include 'user_add.php';
 
-        } elseif($_GET['page'] == 'user-list') {
-
-          include 'user_list.php';
-
-      }
+     }
       else {
            echo "no page found or 404";
          }
@@ -48,12 +43,36 @@
 
           include 'user_list.php';
         }
-      
+
+        
+         
+          
+        
+        
+        
+        
+        
         ?>
+
+    
+
+        
+          
+        
+        
+        
+        
+    
 
     </div>
 
 
+  
+
+
+
+
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
-</html>
+</html> 
