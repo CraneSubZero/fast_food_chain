@@ -1,78 +1,44 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  </head>
-  <body>
-
-
-    <div class="container">
-        <?php include 'template/navbar.php' ?>
-        
-        <?php 
-        if (isset($_GET['page'])) {
-
-          if ($_GET['page'] == 'user') {
-
-            include 'user_list.php';
-
-         } elseif($_GET['page'] == 'location') {
-            include 'location.php';
-
-         } elseif($_GET['page'] == 'assign-address') {
-
-          include 'assign_address.php';
-
-       } elseif($_GET['page'] == 'add-assign-address') {
-
-         include 'add_assign_address.php';
-
-      } elseif($_GET['page'] == 'user_add') {
-
-        include 'user_add.php';
-
-     }
-      else {
-           echo "no page found or 404";
-         }
-
-        } else {
-
-          include 'user_list.php';
-        }
-
-        
-         
-          
-        
-        
-        
-        
-        
-        ?>
-
-    
-
-        
-          
-        
-        
-        
-        
-    
-
-    </div>
-
-
-  
-
-
-
-
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
-</html> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Example</title>
+    <link rel="stylesheet" href="styles.css">
+     <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <a href="#">Fast Food Chain</a>
+        </div>
+        <ul class="nav-list">
+            <li><a href="#">Dashboard</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Restaurants</a>
+                <div class="dropdown-content">
+                    <a href="#">Jollibee</a>
+                    <a href="#">Yoshinoya</a>
+                    <a href="#">McDonald's</a>
+                    <a href="#">Lotteria</a>
+                    <a href="#">The Pizza Company</a>
+                </div>
+            </li>
+            <li><a href="#">About</a></li>
+            
+            <li><a href="#">Contact</a></li>
+        </ul>
+       <div class="dropdown">
+            <button class="dbtn">
+               <i class='bx bxs-user'></i>
+            </button>
+            <div class="dbtnc">
+                <a href="signup.php">Register</a>
+                <a href="login.php">Login</a>
+            </div>
+        </div>
+        </div>
+    </nav>
+</body>
+</html>
