@@ -55,10 +55,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
            // Check if the user is admin
     if ($username === "admin") {
         // Redirect to index2.php for admin
-        header("Location: index2.php");
+        header("Location: admin_dashboard.php");
     } else {
         // Redirect to index.php for non-admin users
-        header("Location: index.php");
+        header("Location: user_dashboard.php");
     }
     exit();
         } else {
