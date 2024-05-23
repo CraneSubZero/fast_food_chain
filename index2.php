@@ -25,16 +25,15 @@
                     <a href="#">The Pizza Company</a>
                 </div>
             </li>
-            <li><a href="add_product.php">Products</a></li>
+            <li><a href="#">Locations</a></li>
             
-            <li><a href="#">About us</a></li>
         </ul>
        <div class="dropdown">
             <button class="dbtn">
                <i class='bx bxs-user'></i>
             </button>
             <div class="dbtnc">
-                <a href="signup.php">Register</a>
+                <a href="<?php echo htmlspecialchars($_SESSION["username"]); ?>">User</a>
                 <a href="login.php">Login</a>
             </div>
         </div>
