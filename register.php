@@ -36,8 +36,8 @@ if ($conn->connect_error) {
               <td><?php echo $row['Password'];  ?></td>
               <td><?php echo $row['role'];  ?></td>
               <td>
-                  <a href="edit-user.php?id=<?php echo $row['Id']; ?>" class="btn btn-sm btn-info btn-edit">Edit</a>
-                  <a onclick="delete_user(<?php echo $row['Id']; ?>)" class="btn btn-sm btn-danger btn-delete">Delete</a>
+                 <a href="edit-user.php?id=<?php echo $row['Id']; ?>" class="btn btn-sm btn-info btn-edit">Edit</a>
+                 <a onclick="delete_user(<?php echo $row['Id']; ?>)" class="btn btn-sm btn-danger btn-delete">Delete</a>
               </td>
             </tr>
           <?php endwhile; ?>
@@ -45,3 +45,5 @@ if ($conn->connect_error) {
       </table>
     </div>
   </div>
+
+  
