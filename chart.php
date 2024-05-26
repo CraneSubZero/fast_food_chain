@@ -62,7 +62,7 @@
                     <a href="index.php" class="nav-item nav-link"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i
-                                class="fa fa-laptop me-2"></i>Elements</a>
+                                class="fa fa-laptop me-2"></i>Fast Food Chains</a>
                         <div class="dropdown-menu bg-transparent border-0">
                             <a href="chains.php" class="dropdown-item">Chains</a>
                             <a href="products.php" class="dropdown-item">Products</a>
