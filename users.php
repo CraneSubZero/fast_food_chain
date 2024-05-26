@@ -19,6 +19,7 @@
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
 
     <!-- Libraries Stylesheet -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
@@ -55,28 +56,21 @@
                     </div>
                     
                 </div>
-                <div class="navbar-nav w-100">
-                    <a href="index.php" class="nav-item nav-link"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
+                 <div class="navbar-nav w-100">
+                    <a href="index.php" class="nav-item nav-link active"><i
+                            class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i
                                 class="fa fa-laptop me-2"></i>Fast Food Chains</a>
                         <div class="dropdown-menu bg-transparent border-0">
-                            <a href="chains.php" class="dropdown-item">Chains</a>
-                            <a href="products.php" class="dropdown-item">Products</a>
+                           <a href="chains.php" class="dropdown-item">Chains</a>
+                            <a href="products.php" class="dropdown-item">Product</a>
                             <a href="locations.php" class="dropdown-item">Locations</a>
                         </div>
                     </div>
-                    <a href="widget.php" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Widgets</a>
-                    <a href="form.php" class="nav-item nav-link active"><i class="fa fa-keyboard me-2"></i>Forms</a>
+                    <a href="users.php" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Users</a>
                     <a href="table.php" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Tables</a>
-                    <a href="chart.php" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Charts</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="far fa-file-alt me-2"></i>Pages</a>
-                        <div class="dropdown-menu bg-transparent border-0">
-                            <a href="signin.php" class="dropdown-item">Sign In</a>
-                            <a href="signup.php" class="dropdown-item">Sign Up</a>
-                            <a href="404.php" class="dropdown-item">404 Error</a>
-                            <a href="blank.php" class="dropdown-item">Blank Page</a>
+                    <a href="sales.php" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Sales</a>
                         </div>
                     </div>
                 </div>
@@ -148,12 +142,11 @@
                     </div>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
-                            <img class="rounded-circle me-lg-2" src="img/user.jpg" alt=""
-                                style="width: 40px; height: 40px;">
-                            <span class="d-none d-lg-inline-flex">John Doe</span>
+                           <i class="ri-admin-line"></i>
+                            <span class="d-none d-lg-inline-flex">Admin</span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-end bg-light border-0 rounded-0 rounded-bottom m-0">
-                           <a href="edit_user.php" class="dropdown-item">My Profile</a>
+                            <a href="edit_user.php" class="dropdown-item">My Profile</a>
                             <a href="logout.php" class="dropdown-item">Log Out</a>
                         </div>
                     </div>

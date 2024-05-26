@@ -71,18 +71,10 @@
                             <a href="locations.php" class="dropdown-item">Locations</a>
                         </div>
                     </div>
-                    <a href="widget.php" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Widgets</a>
-                    <a href="form.php" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Forms</a>
+                    <a href="users.php" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Users</a>
                     <a href="table.php" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Tables</a>
-                    <a href="chart.php" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Charts</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i
-                                class="far fa-file-alt me-2"></i>Pages</a>
-                        <div class="dropdown-menu bg-transparent border-0">
-                            <a href="signin.php" class="dropdown-item">Sign In</a>
-                            <a href="signup.php" class="dropdown-item">Sign Up</a>
-                            <a href="404.php" class="dropdown-item">404 Error</a>
-                            <a href="blank.php" class="dropdown-item">Blank Page</a>
+                    <a href="sales.php" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Sales</a>
+                  
                         </div>
                     </div>
                 </div>
