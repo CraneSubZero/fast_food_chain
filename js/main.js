@@ -66,17 +66,17 @@
         data: {
             labels: ["2016", "2017", "2018", "2019", "2020", "2021", "2022"],
             datasets: [{
-                    label: "USA",
+                    label: "Luzon",
                     data: [15, 30, 55, 65, 60, 80, 95],
                     backgroundColor: "rgba(0, 156, 255, .7)"
                 },
                 {
-                    label: "UK",
+                    label: "Visayas",
                     data: [8, 35, 40, 60, 70, 55, 75],
                     backgroundColor: "rgba(0, 156, 255, .5)"
                 },
                 {
-                    label: "AU",
+                    label: "Mindanao",
                     data: [12, 25, 45, 55, 65, 70, 60],
                     backgroundColor: "rgba(0, 156, 255, .3)"
                 }
@@ -139,7 +139,7 @@
     var myChart4 = new Chart(ctx4, {
         type: "bar",
         data: {
-            labels: ["Italy", "France", "Spain", "USA", "Argentina"],
+            labels: ["Bacolod", "Manila", "Davao", "Iloilo", "Baguio"],
             datasets: [{
                 backgroundColor: [
                     "rgba(0, 156, 255, .7)",
@@ -162,7 +162,7 @@
     var myChart5 = new Chart(ctx5, {
         type: "pie",
         data: {
-            labels: ["Italy", "France", "Spain", "USA", "Argentina"],
+            labels: ["Bacolod", "Manila", "Davao", "Iloilo", "Baguio"],
             datasets: [{
                 backgroundColor: [
                     "rgba(0, 156, 255, .7)",
@@ -185,7 +185,7 @@
     var myChart6 = new Chart(ctx6, {
         type: "doughnut",
         data: {
-            labels: ["Italy", "France", "Spain", "USA", "Argentina"],
+            labels: ["Bacolod", "Manila", "Davao", "Iloilo", "Baguio"],
             datasets: [{
                 backgroundColor: [
                     "rgba(0, 156, 255, .7)",

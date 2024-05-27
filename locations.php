@@ -164,36 +164,36 @@
                 <div class="row g-4">
                     <div class="col-sm-12 col-xl-6">
                         <div class="bg-light rounded h-100 p-4">
-                            <h6 class="mb-4">Basic Alerts</h6>
+                            <h6 class="mb-4">Basic Orders</h6>
                             <div class="alert alert-primary" role="alert">
-                                A simple primary alert—check it out!
+                                First Order type
                             </div>
                             <div class="alert alert-secondary" role="alert">
-                                A simple secondary alert—check it out!
+                                Secondary Order type
                             </div>
                             <div class="alert alert-success" role="alert">
-                                A simple success alert—check it out!
+                                Third Order Type
                             </div>
                             <div class="alert alert-danger" role="alert">
-                                A simple danger alert—check it out!
+                                Fourth Order Type
                             </div>
                             <div class="alert alert-warning" role="alert">
-                                A simple warning alert—check it out!
+                                Fifth Order Type
                             </div>
                             <div class="alert alert-info" role="alert">
-                                A simple info alert—check it out!
+                                Sixth Order Type
                             </div>
                             <div class="alert alert-light" role="alert">
-                                A simple light alert—check it out!
+                                Seventh Order Type
                             </div>
                             <div class="alert alert-dark mb-0" role="alert">
-                                A simple dark alert—check it out!
+                                Eighth Order Type
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-12 col-xl-6">
                         <div class="bg-light rounded h-100 p-4">
-                            <h6 class="mb-4">Icons & Dismissing Alerts</h6>
+                            <h6 class="mb-4">Food Orders</h6>
                             <div class="alert alert-primary alert-dismissible fade show" role="alert">
                                 <i class="fa fa-exclamation-circle me-2"></i>An icon & dismissing primary alert—check it
                                 out!
@@ -259,10 +259,7 @@
                                     <div id="collapseOne" class="accordion-collapse collapse show"
                                         aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            Gubergren justo eos magna eirmod lorem magna, amet dolores ipsum sadipscing
-                                            ipsum consetetur invidunt et clita diam, vero dolor dolor est eirmod. Rebum
-                                            accusam amet ipsum et. Et et lorem sanctus amet eos eos elitr ea, sanctus
-                                            magna et et sed eos sit takimata sadipscing, dolor rebum sed stet vero.
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -277,10 +274,7 @@
                                     <div id="collapseTwo" class="accordion-collapse collapse"
                                         aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            Voluptua sit dolores consetetur ea et diam est et takimata. Et erat
-                                            sadipscing dolores et stet diam ut ut diam, sit aliquyam no magna et dolore
-                                            lorem dolor sit. Lorem lorem sed sed duo, eirmod sit diam ipsum sit erat,
-                                            lorem sit dolor diam amet ea aliquyam tempor rebum invidunt,.
+                                            V
                                         </div>
                                     </div>
                                 </div>
@@ -295,11 +289,7 @@
                                     <div id="collapseThree" class="accordion-collapse collapse"
                                         aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            Dolore eos dolor tempor justo sea eos amet eos kasd dolor, et diam tempor
-                                            lorem dolores vero. Stet dolore gubergren nonumy diam. Consetetur sit
-                                            takimata magna invidunt, dolore sea amet consetetur ea et rebum, invidunt et
-                                            amet sit sea. Dolor eirmod sed magna sadipscing sadipscing lorem lorem sed,
-                                            sit lorem.
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -321,10 +311,7 @@
                                     <div id="flush-collapseOne" class="accordion-collapse collapse show"
                                         aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">
-                                            Lorem et ea ea consetetur voluptua duo et aliquyam sanctus sit. Et dolore at
-                                            erat amet et diam labore lorem dolores. Erat amet stet at dolore dolor ea
-                                            invidunt, justo nonumy justo takimata magna. Stet lorem vero sed eos justo
-                                            diam dolores, dolor sit takimata et voluptua aliquyam gubergren tempor.
+                                           
                                         </div>
                                     </div>
                                 </div>
@@ -339,10 +326,7 @@
                                     <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                         aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">
-                                            Sea diam dolore aliquyam aliquyam diam et consetetur et. Accusam amet no
-                                            invidunt invidunt et consetetur, magna ut nonumy kasd erat tempor dolor et.
-                                            Diam magna dolor sed amet duo dolores magna vero. Amet sit sadipscing ea
-                                            diam clita lorem sit. Vero et et et tempor diam. Ipsum eirmod sit.
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -357,10 +341,7 @@
                                     <div id="flush-collapseThree" class="accordion-collapse collapse"
                                         aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">
-                                            Sea sea sit sanctus magna gubergren kasd, magna justo ea lorem lorem. Elitr
-                                            aliquyam ipsum clita consetetur duo at nonumy invidunt, invidunt eos dolore
-                                            vero sit amet amet magna tempor clita, takimata diam justo stet erat et vero
-                                            erat. Sit ipsum eirmod sea ut vero dolores sea clita nonumy, no.
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -386,25 +367,15 @@
                             <div class="tab-content pt-3" id="nav-tabContent">
                                 <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
                                     aria-labelledby="nav-home-tab">
-                                    Diam sea sanctus amet clita lorem sit sanctus ea elitr. Lorem rebum est elitr eos.
-                                    Dolores aliquyam sadipscing dolor sadipscing accusam voluptua tempor. Sanctus elitr
-                                    sanctus diam tempor diam aliquyam et labore clita, ipsum takimata amet est erat,
-                                    accusam takimata gubergren sea sanctus duo nonumy. Ipsum diam ipsum sit kasd.
+                                    
                                 </div>
                                 <div class="tab-pane fade" id="nav-profile" role="tabpanel"
                                     aria-labelledby="nav-profile-tab">
-                                    Sanctus vero sit kasd sea gubergren takimata consetetur elitr elitr, consetetur
-                                    sadipscing takimata ipsum dolores. Accusam duo accusam et labore ea elitr ipsum
-                                    tempor sit, dolore aliquyam ipsum sit amet sit. Et dolore ipsum labore invidunt
-                                    rebum. Sed dolore gubergren sanctus vero diam lorem rebum elitr, erat diam dolor
-                                    clita.
+                                    
                                 </div>
                                 <div class="tab-pane fade" id="nav-contact" role="tabpanel"
                                     aria-labelledby="nav-contact-tab">
-                                    Sit consetetur eirmod lorem ea magna sadipscing ipsum elitr invidunt, dolores lorem
-                                    erat ipsum ut aliquyam eos lorem sed. Nonumy aliquyam ea justo eos dolores dolores
-                                    duo dolores. Aliquyam dolor sea dolores sit takimata no erat vero. At lorem justo
-                                    tempor lorem duo, stet kasd aliquyam ipsum voluptua labore at.
+                                   
                                 </div>
                             </div>
                         </div>
@@ -432,24 +403,15 @@
                             <div class="tab-content" id="pills-tabContent">
                                 <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
                                     aria-labelledby="pills-home-tab">
-                                    Sit sanctus et stet dolor kasd kasd takimata. Dolor stet dolores nonumy et dolor et
-                                    eos lorem et, diam ipsum nonumy elitr sanctus dolores voluptua sit dolor, at et et
-                                    amet nonumy elitr ea et ipsum. Elitr lorem et dolore invidunt eirmod voluptua lorem
-                                    sed. Sed eirmod sadipscing eos tempor.
+                                    
                                 </div>
                                 <div class="tab-pane fade" id="pills-profile" role="tabpanel"
                                     aria-labelledby="pills-profile-tab">
-                                    Invidunt rebum voluptua lorem eirmod dolore. Amet no sed sanctus lorem ea. Nonumy
-                                    sit stet sit magna. Rebum rebum ipsum clita erat consetetur, sit dolor sit clita et
-                                    amet. Est et clita dolore takimata, sea dolores tempor erat consetetur lorem.
-                                    Consetetur sea sadipscing dolor et dolores et stet, tempor elitr.
+                                    
                                 </div>
                                 <div class="tab-pane fade" id="pills-contact" role="tabpanel"
                                     aria-labelledby="pills-contact-tab">
-                                    Et diam et est sed vero ipsum voluptua dolor et, sit eos justo ipsum no ipsum amet
-                                    sed aliquyam dolore, ut ipsum sanctus et consetetur. Sit ea sit clita lorem ea
-                                    gubergren. Et dolore vero sanctus voluptua ipsum sadipscing amet at. Et sed dolore
-                                    voluptua dolor eos tempor, erat amet.
+                                    
                                 </div>
                             </div>
                         </div>
@@ -476,31 +438,19 @@
                                 <div class="tab-content" id="v-pills-tabContent">
                                     <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
                                         aria-labelledby="v-pills-home-tab">
-                                        Consetetur at sit est sit ut ipsum clita at. Sit elitr sit sea dolor tempor eos
-                                        sit, erat diam ea rebum clita no ea. Et amet sed nonumy sadipscing dolor et ut
-                                        sed et. Stet eirmod est nonumy clita invidunt rebum. Nonumy dolor ut diam
-                                        invidunt eirmod nonumy sed gubergren,.
+                                       
                                     </div>
                                     <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
                                         aria-labelledby="v-pills-profile-tab">
-                                        Tempor et kasd accusam duo et dolor no accusam dolore, dolor sed voluptua duo
-                                        no, sit et stet lorem dolor ipsum tempor consetetur vero, consetetur est eos sit
-                                        eirmod erat diam accusam sadipscing sit. Takimata erat ea eirmod tempor elitr
-                                        dolore sadipscing kasd justo, elitr tempor sed eos sadipscing magna.
+                                        
                                     </div>
                                     <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
                                         aria-labelledby="v-pills-messages-tab">
-                                        Sed kasd kasd ea clita sed lorem amet tempor est voluptua, labore stet dolores
-                                        gubergren clita lorem sed nonumy at. Dolores et ut erat voluptua. Est voluptua
-                                        stet accusam rebum, elitr amet sit takimata sea eirmod. Sanctus elitr amet sit
-                                        dolore sea stet et ut. Dolor et sanctus elitr ut.
+                                        
                                     </div>
                                     <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
                                         aria-labelledby="v-pills-settings-tab">
-                                        Sit et vero kasd sea et at, aliquyam takimata et et est, labore et takimata sed
-                                        ut stet sanctus, nonumy dolor invidunt sit labore et, amet et dolor sit dolor
-                                        tempor et dolor ipsum nonumy, accusam clita sadipscing ut et labore labore est,
-                                        dolore accusam vero at est sit. Invidunt.
+                                       
                                     </div>
                                 </div>
                             </div>
